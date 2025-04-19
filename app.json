@@ -7,48 +7,48 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"ILH6+TJknneBU686YrgN4BZEdD5rbsdGL8HRexn8fXk="},"public":{"type":"Buffer","data":"0i8twwGbIeQT3dBXkvWEpqxQW1sq1oPH/MT807LihHw="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"EJ80xADYrjBPMo1TJfF/Yan2BEHWpHu3YKmYLQRPP0E="},"public":{"type":"Buffer","data":"d6oIxvWgCAKvDS6LNZ6TFMecM+ZTeVhBEovY9CBlXyM="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"ICeOd7hN1tviwB9VOVIS7REr4LbsUCRLh2SaKI505Go="},"public":{"type":"Buffer","data":"n3pO+/zXefyF456/bdr1mY19GqjUK6IN/JAWJe9mdm0="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"UOZDdwpXUYyI1nuqghnLn0FMu6//gmvBC6Dbrx9Qe1g="},"public":{"type":"Buffer","data":"KjqzV/bkNT0obxMRHiGucYQd1S3bmBAuN4RWyCLc4B8="}},"signature":{"type":"Buffer","data":"FzPPgmJsj+ocFeuX4CByW5SvqM/VfgYdUnIKIhQLPrxv0zU3kA+3aWvIHwX/ZoQZuEuqZabfsVIE6wPPnbxXDQ=="},"keyId":1},"registrationId":141,"advSecretKey":"dR0eFk6xpkCtfDpoT7MLt1o0fOhFqz/ukNHWV37L17Y=","processedHistoryMessages":[{"key":{"remoteJid":"2349095424934@s.whatsapp.net","fromMe":true,"id":"191B4200853205986A1217FF1EE9CA6B"},"messageTimestamp":1745020191}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"SMRVHPN0RqKEzJMs2vBbcA","phoneId":"b9d4a086-f1ee-45b0-aeab-69fbb44d39c2","identityId":{"type":"Buffer","data":"NQPs+WMesNEj9NVaC+uLFiLCjPs="},"registered":true,"backupToken":{"type":"Buffer","data":"Eg9dx/yYZ0hpdOlIp1LFJc3RiFA="},"registration":{},"pairingCode":"WPR1FV62","me":{"id":"2349095424934:11@s.whatsapp.net"},"account":{"details":"CLKVpaMHEIzKi8AGGAMgACgA","accountSignatureKey":"BEf2QORm7wNiTDE+Ypi55ZvvyP6k/pcNrIllo6l5Tkg=","accountSignature":"jJGnYEvFyHJHL71xMVMgc+q+XHvZXBsTMcjlOucinBTFtwVnVAxwIHDUALR5hFEbGwPXsCsNpUWFCBwosV3uCw==","deviceSignature":"OvgHr3WsDRQ6s7mTmYtAaVmhdz+sDa6GvugCFv4yQse8RdE7XTffVisDAD4a68lQ+IP4+j4xS0hvyVQHd1Z1Dw=="},"signalIdentities":[{"identifier":{"name":"2349095424934:11@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BQRH9kDkZu8DYkwxPmKYueWb78j+pP6XDayJZaOpeU5I"}}],"platform":"android","lastAccountSyncTimestamp":1745020186,"myAppStateKeyId":"AAAAADkh"}.",
       "value": ""
     },
     "PREFIX": {
-      "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
+      "description": ".. You can set `all | . | .!*`",
       "value": "."
     },
     "AUTO_REACT": {
-      "description": "Set true to auto-react to messages.",
+      "description": "true.",
       "value": "false",
       "required": false
     },
     "WELCOME": {
-      "description": "Put 'false' or 'true' to enable or disable WELCOME.",
+      "description": "true.",
       "value": "false",
       "required": false
     },
     "AUTO_VIEW_STATUS": {
-      "description": "Auto-view saved WhatsApp statuses.",
+      "description": "true.",
       "value": "true",
       "required": false
     },
     "CHATBOT": {
-      "description": "Set to true if you want your bot to autoreply messages.",
+      "description": "true.",
       "value": "false",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
-      "description": "Set to true if you want the bot to read all messages.",
+      "description": "false.",
       "value": "false",
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
+      "description": "+2348162974187.",
       "value": "2349066528353"
     },
     "PUBLIC": {
-      "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
+      "description": "public.",
       "value": "public"
     },
     "AUTHOR": {
-      "description": "Put Sticker Pack Author_Name.",
+      "description": "DAVID CYRIL.",
       "value": "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋",
       "required": false
     }
